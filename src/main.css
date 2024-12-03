@@ -1,0 +1,33 @@
+.products {
+    display: flex;
+    gap: 16px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+.product__image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+.product__name {
+    font-size: 1rem;
+    margin: 8px 0;
+}
+.product__description {
+    font-size: 0.875rem;
+    color: #666;
+}
+.product--highlighted {
+    border-color: #007bff;
+    background-color: #e9f5ff;
+    transform: scale(1.05);
+}

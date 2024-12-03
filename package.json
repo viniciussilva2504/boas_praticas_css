@@ -1,0 +1,22 @@
+{
+        "name": "bem-css-project",
+        "version": "1.0.0",
+        "description": "Projeto exemplo com Metodologia BEM e boas práticas de CSS",
+        "main": "index.js",
+        "scripts": {
+                "build:css": "postcss main.css -o dist/main.min.css",
+                "lint:css": "stylelint '**/*.css'",
+                "watch:css": "postcss main.css -o dist/main.min.css --watch"
+        },
+        "devDependencies": {
+                "postcss": "^8.4.21",
+                "postcss-cli": "^10.1.0",
+                "autoprefixer": "^10.4.14",
+                "stylelint": "^15.8.0",
+                "stylelint-config-standard": "^29.0.0",
+                "cssnano": "^6.0.1",
+                "sass": "^1.70.0"
+        },
+        "author": "",
+        "license": "ISC"
+}
